@@ -1,0 +1,12 @@
+# Core dependencies for AKSS
+numpy>=1.22
+scipy>=1.8
+scikit-learn>=1.0
+pandas>=1.4
+umap-learn>=0.5.3
+pynndescent>=0.5.7
+
+# Algorithm 2 (joint UMAP + K-Subspaces) requires PyTorch.
+# Algorithm 1 and Algorithm 3 do NOT need torch — comment the line below if you
+# only plan to use AKSS / SR-UMAP / ISR-UMAP.
+torch>=1.12
